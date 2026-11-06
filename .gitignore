@@ -1,0 +1,49 @@
+# Secrets
+.env
+.env.*
+
+# Keep safe public templates
+!.env.example
+
+# Local product configuration
+products.json
+
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Playwright browser profiles
+browser_profile/
+autobuy_profile/
+
+# SQLite runtime state
+monitor.db
+monitor.db-*
+*.db-shm
+*.db-wal
+
+# Runtime logs
+logs/
+*.log
+
+# Temporary/debug data
+shopee_product.json
+state.json
+auto_buy_attempt.json
+
+# Backups and extracted project copies
+ecommerce-restock-monitor-reviewed/
+*.zip
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db

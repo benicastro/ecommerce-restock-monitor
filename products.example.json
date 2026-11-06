@@ -1,0 +1,9 @@
+{
+  "products": [
+    {
+      "platform": "shopee",
+      "name": "Example Product",
+      "url": "https://shopee.ph/product/123456789/987654321"
+    }
+  ]
+}
